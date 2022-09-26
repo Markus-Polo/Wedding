@@ -1,0 +1,160 @@
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.heder-nav {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .heder-nav {
+    display: flex;
+  }
+}
+
+.title-1 {
+  font-size: 32px;
+  line-height: 69px;
+}
+
+@media screen and (min-width: 992px) {
+  .title-1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .title-1 {
+    font-size: 56px;
+  }
+}
+
+.title-2 {
+  font-size: 28px;
+  line-height: 44px;
+}
+
+@media screen and (min-width: 992px) {
+  .title-2 {
+    font-size: 32px;
+  }
+}
+
+.max-width-570 {
+  max-width: 570px;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.playn-text {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+}
+.button-primary {
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: white;
+  color: #f7941e;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.page-heder {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.heder-nav-item {
+  padding: 8px;
+}
+.heder-nav-link {
+  color: black;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.hero-section {
+  padding-top: 82px;
+  background-color: #f1f1f2;
+}
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-flex {
+    flex-direction: row;
+  }
+}
+
+.hero-content {
+  max-width: 450px;
+  padding-right: 15px;
+}
+.hero-button-holder {
+  padding-top: 75px;
+  padding-bottom: 30px;
+}
+.hero-button {
+  padding: 22px;
+  background-color: #f7941e;
+  color: white;
+}
+.how-we-work-section {
+  padding-top: 70px;
+  background-color: #f1f1f2;
+}
+.how-we-work-content {
+  max-width: 450px;
+  padding-left: 15px;
+}
+.how-we-work-button-holder {
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+.how-we-work-batton {
+  padding: 20px 44px;
+  background-color: #f1f1f2;
+}
