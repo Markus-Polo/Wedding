@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -235,7 +237,7 @@ a {
   padding-top: 36px;
   padding-bottom: 30px;
 }
-.how-we-work-batton {
+.how-we-work-button {
   padding: 20px 44px;
   background-color: #f1f1f2;
 }
