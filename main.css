@@ -31,6 +31,7 @@ body {
 }
 ul {
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 img {
@@ -100,7 +101,8 @@ a {
 
 .title-2 {
   font-size: 28px;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 @media screen and (min-width: 992px) {
@@ -112,12 +114,20 @@ a {
 .d-flex {
   display: flex;
 }
+.text-center {
+  text-align: center;
+}
 .justify-content-between {
   justify-content: space-between;
 }
 .plain-text {
   font-size: 20px;
-  line-height: 28px;
+  line-height: 1.2;
+  text-align: justify;
+}
+.sm-text {
+  font-size: 18px;
+  line-height: 1.2;
   text-align: justify;
 }
 .header-holder {
@@ -200,6 +210,7 @@ a {
 }
 .how-we-work-section {
   padding-top: 70px;
+  padding-bottom: 128px;
   background-color: #f1f1f2;
 }
 .how-we-work-img-holder {
@@ -240,4 +251,58 @@ a {
 .how-we-work-button {
   padding: 20px 44px;
   background-color: #f1f1f2;
+}
+.gifts-section {
+  padding-top: 96px;
+  padding-bottom: 135px;
+}
+.gifts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .gifts-list {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gifts-list {
+    padding-right: 68px;
+    padding-left: 68px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gifts-list {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.gifts-list-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  margin-top: 10px;
+  background-color: #fafafa;
+}
+.gifts-list-item:hover {
+  background-color: white;
+  box-shadow: 5px 5px 15px #00000025;
+}
+.gifts-list-item-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.gifts-list-item-link {
+  padding-top: 74px;
+  color: black;
+  font-size: 14px;
+  text-align: 1.2;
 }
