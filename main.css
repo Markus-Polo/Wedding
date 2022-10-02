@@ -137,7 +137,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .header-holder {
-    padding-top: 35px;
+    padding-top: 36px;
     padding-bottom: 36px;
   }
 }
@@ -180,7 +180,7 @@ a {
 
 .hero-content {
   max-width: 450px;
-  padding-right: 15px;
+  padding-right: 16px;
 }
 .hero-img-holder {
   max-width: 570px;
@@ -235,7 +235,7 @@ a {
 
 @media screen and (min-width: 768px) {
   .how-we-work-content {
-    padding-left: 15px;
+    padding-left: 16px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -254,7 +254,7 @@ a {
 }
 .gifts-section {
   padding-top: 96px;
-  padding-bottom: 135px;
+  padding-bottom: 136px;
 }
 .gifts-list {
   display: flex;
@@ -267,8 +267,8 @@ a {
   .gifts-list {
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 26px;
+    padding-left: 26px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -293,7 +293,7 @@ a {
 }
 .gifts-list-item:hover {
   background-color: white;
-  box-shadow: 5px 5px 15px #00000025;
+  box-shadow: 6px 6px 16px #00000025;
 }
 .gifts-list-item-content {
   display: flex;
