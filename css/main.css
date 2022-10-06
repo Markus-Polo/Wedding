@@ -13,21 +13,21 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url('fonts/gilroy-thin.woff');
+  src: url('../fonts/gilroy-thin.woff');
 }
 @font-face {
   font-family: gilroy;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('fonts/gilroy-light.woff');
+  src: url('../fonts/gilroy-light.woff');
 }
 @font-face {
   font-family: gilroy;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('fonts/gilroy-thin.woff');
+  src: url('../fonts/gilroy-bold.woff');
 }
 
 body {
@@ -79,16 +79,6 @@ a:hover {
   }
 }
 
-.header-nav {
-  display: none;
-}
-
-@media screen and (min-width: 576px) {
-  .header-nav {
-    display: flex;
-  }
-}
-
 .title-1 {
   font-size: 32px;
   font-weight: 700;
@@ -106,6 +96,23 @@ a:hover {
   }
 }
 
+.title-2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .title-2 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .title-2 {
+    font-size: 48px;
+  }
+}
+
 .title-3 {
   font-size: 28px;
   font-weight: 400;
@@ -118,6 +125,26 @@ a:hover {
   }
 }
 
+.title-4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.pt-62 {
+  padding-top: 62px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.m-0 {
+  margin: 0;
+}
+.d-block {
+  display: block;
+}
+.color-white {
+  color: white;
+}
 .fw-700 {
   font-weight: 700;
 }
@@ -138,8 +165,17 @@ a:hover {
 .sm-text {
   font-size: 18px;
   line-height: 1.2;
-  text-align: justify;
 }
+.header-nav {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .header-nav {
+    display: flex;
+  }
+}
+
 .header-holder {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -392,4 +428,104 @@ a:hover {
 .cta-button:hover {
   background-color: black;
   color: white;
+}
+.blog-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #231f20;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-wrap {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-wrap {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .blog-wrap {
+    padding-right: 178px;
+  }
+}
+
+.content-blog-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-blog-wrap {
+    align-items: flex-start;
+  }
+}
+
+.blog-wrap-title {
+  margin: 0;
+  padding-top: 26px;
+  color: white;
+}
+.content-blog-link {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .content-blog-link {
+    padding-top: 50px;
+    padding-bottom: 8px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .content-blog-link {
+    padding-top: 60px;
+  }
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .blog-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.blog-list-item {
+  max-width: 570px;
+  max-height: 290px;
+  padding: 15px;
+  text-align: start;
+}
+
+@media screen and (min-width: 576px) {
+  .blog-list-item {
+    padding: 50px 48px;
+  }
+}
+
+.blog-list-item:hover {
+  box-shadow: 10px 10px 15px #00000020;
+}
+.blog-list-link {
+  display: block;
+  color: black;
 }
