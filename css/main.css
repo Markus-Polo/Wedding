@@ -522,3 +522,42 @@ a:hover {
   display: block;
   color: black;
 }
+.footer {
+  padding-top: 110px;
+  padding-bottom: 36px;
+  background-color: var(--gray);
+}
+.footer-nav-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 614px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 52px;
+}
+.footer-nav-list-link {
+  color: black;
+  font-weight: 700;
+}
+.horizontal-line {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.social-network-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 296px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 56px;
+}
+.icon-footer {
+  color: black;
+  font-size: 32px;
+}
+.copyright {
+  padding-top: 70px;
+  padding-bottom: 36px;
+  text-align: center;
+}
