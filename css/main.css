@@ -504,13 +504,13 @@ a:hover {
 
 .blog-list-item {
   max-width: 570px;
-  max-height: 290px;
   padding: 15px;
   text-align: start;
 }
 
 @media screen and (min-width: 576px) {
   .blog-list-item {
+    max-height: 290px;
     padding: 50px 48px;
   }
 }
@@ -558,6 +558,5 @@ a:hover {
 }
 .copyright {
   padding-top: 70px;
-  padding-bottom: 36px;
   text-align: center;
 }
