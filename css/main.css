@@ -535,11 +535,11 @@ a:hover {
   margin-left: auto;
   padding-bottom: 52px;
 }
-.footer-nav-list-link {
+.footer-nav-link {
   color: black;
   font-weight: 700;
 }
-.horizontal-line {
+.divider {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
