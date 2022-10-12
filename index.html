@@ -53,16 +53,43 @@
               <button class="button-primary hero-button">Find gift now</button>
             </div>
           </div>
-          <div class="hero-img-holder">
-            <img src="images/hero-img.jpg" alt="hero img" />
-          </div>
+          <picture class="hero-img-holder">
+            <source
+              media="(min-width: 992px)"
+              srcset="
+                images/hero-img_1x_992.png 1x,
+                images/hero-img_2x_992.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              srcset="images/hero-img_1x.png 1x, images/hero-img_2x.png 2x"
+              type="image/png"
+            />
+            <img src="images/hero-img_1x_768.png" alt="hero img" />
+          </picture>
         </div>
       </section>
       <section class="how-we-work-section">
         <div class="container hero-flex">
-          <div class="how-we-work-img-holder">
+          <picture class="how-we-work-img-holder">
+            <source
+              media="(min-width: 992px)"
+              srcset="
+                images/how_we_work-img_1x_992.png 1x,
+                images/how_we_work-img_2x_992.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              srcset="
+                images/how_we_work-img_1x.png 1x,
+                images/how_we_work-img_2x.png 2x
+              "
+              type="image/png"
+            />
             <img src="images/how_we_work-img.jpg" alt="how we work img" />
-          </div>
+          </picture>
           <div class="how-we-work-content">
             <h2 class="title-3">How we work</h2>
             <p class="plain-text">
@@ -86,31 +113,67 @@
         </p>
         <ul class="gifts-list">
           <li class="gifts-list-item">
-            <img src="images/gifts_img/birthday.jpg" alt="birthday" />
+            <picture>
+              <source
+                srcset="
+                  images/gifts_img/birthday_1x.png 1x,
+                  images/gifts_img/birthday_2x.png 2x
+                "
+                type="image/png"
+              />
+              <img src="images/gifts_img/birthday_1x.png" alt="birthday" />
+            </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Birthday</span>
               <a class="gifts-list-item-link" href="">See More ›</a>
             </div>
           </li>
           <li class="gifts-list-item">
-            <img src="images/gifts_img/anniversary.jpg" alt="anniversary" />
+            <picture>
+              <source
+                srcset="
+                  images/gifts_img/anniversary_1x.png 1x,
+                  images/gifts_img/anniversary_2x.png 2x
+                "
+                type="image/png"
+              />
+              <img src="images/gifts_img/anniversary_1x.png" alt="birthday" />
+            </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Anniversary</span>
               <a class="gifts-list-item-link" href="">See More ›</a>
             </div>
           </li>
           <li class="gifts-list-item">
-            <img
-              src="images/gifts_img/valentine's_day.jpg"
-              alt="valentine's day"
-            />
+            <picture>
+              <source
+                srcset="
+                  images/gifts_img/valentine's_day_1x.png 1x,
+                  images/gifts_img/valentine's_day_2x.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="images/gifts_img/valentine's_day_1x.png"
+                alt="birthday"
+              />
+            </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Valentine's Day</span>
               <a class="gifts-list-item-link" href="">See More ›</a>
             </div>
           </li>
           <li class="gifts-list-item">
-            <img src="images/gifts_img/christmas.jpg" alt="christmas" />
+            <picture>
+              <source
+                srcset="
+                  images/gifts_img/christmas_1x.png 1x,
+                  images/gifts_img/christmas_2x.png 2x
+                "
+                type="image/png"
+              />
+              <img src="images/gifts_img/christmas_1x.png" alt="birthday" />
+            </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Christmas</span>
               <a class="gifts-list-item-link" href="">See More ›</a>
@@ -138,9 +201,21 @@
           </p>
         </div>
         <div class="blog-wrap">
-          <div>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                images/blog-img_1x_768.png 1x,
+                images/blog-img_2x_768.png 2x
+              "
+              type="image/png"
+            />
+            <source
+              srcset="images/blog-img_1x.png 1x, images/blog-img_2x.png 2x"
+              type="image/png"
+            />
             <img class="d-block" src="images/blog-img.jpg" alt="" />
-          </div>
+          </picture>
           <div class="content-blog-wrap">
             <span class="color-white pt-62">Mr. John Doe</span>
             <h3 class="title-2 blog-wrap-title">
