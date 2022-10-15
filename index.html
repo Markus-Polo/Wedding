@@ -56,17 +56,29 @@
           <picture class="hero-img-holder">
             <source
               media="(min-width: 992px)"
-              srcset="
-                images/hero-img_1x_992.png 1x,
-                images/hero-img_2x_992.png 2x
-              "
-              type="image/png"
+              srcset="images/hero-img_1x.webp 1x, images/hero-img_2x.webp 2x"
+              type="image/webp"
             />
             <source
-              srcset="images/hero-img_1x.png 1x, images/hero-img_2x.png 2x"
-              type="image/png"
+              media="(min-width: 992px)"
+              srcset="images/hero-img_1x.jpg 1x, images/hero-img_2x.jpg 2x"
+              type="image/jpeg"
             />
-            <img src="images/hero-img_1x_768.png" alt="hero img" />
+            <source
+              srcset="
+                images/hero-img_1x_sm.webp 1x,
+                images/hero-img_2x_sm.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                images/hero-img_1x_sm.jpg 1x,
+                images/hero-img_2x_sm.jpg 2x
+              "
+              type="image/jpeg"
+            />
+            <img src="images/hero-img_1x.jpg" alt="hero img" loading="lazy" />
           </picture>
         </div>
       </section>
@@ -76,19 +88,38 @@
             <source
               media="(min-width: 992px)"
               srcset="
-                images/how_we_work-img_1x_992.png 1x,
-                images/how_we_work-img_2x_992.png 2x
+                images/how_we_work-img_1x.webp 1x,
+                images/how_we_work-img_2x.webp 2x
               "
-              type="image/png"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 992px)"
+              srcset="
+                images/how_we_work-img_1x.jpg 1x,
+                images/how_we_work-img_2x.jpg 2x
+              "
+              type="image/jpeg"
             />
             <source
               srcset="
-                images/how_we_work-img_1x.png 1x,
-                images/how_we_work-img_2x.png 2x
+                images/how_we_work-img_1x_sm.webp 1x,
+                images/how_we_work-img_2x_sm.webp 2x
               "
-              type="image/png"
+              type="image/webp"
             />
-            <img src="images/how_we_work-img.jpg" alt="how we work img" />
+            <source
+              srcset="
+                images/how_we_work-img_1x_sm.jpg 1x,
+                images/how_we_work-img_2x_sm.jpg 2x
+              "
+              type="image/jpeg"
+            />
+            <img
+              src="images/how_we_work-img_1x.jpg"
+              alt="how we work img"
+              loading="lazy"
+            />
           </picture>
           <div class="how-we-work-content">
             <h2 class="title-3">How we work</h2>
@@ -116,12 +147,23 @@
             <picture>
               <source
                 srcset="
-                  images/gifts_img/birthday_1x.png 1x,
-                  images/gifts_img/birthday_2x.png 2x
+                  images/gifts_img/birthday_1x.webp 1x,
+                  images/gifts_img/birthday_2x.webp 2x
                 "
-                type="image/png"
+                type="image/webp"
               />
-              <img src="images/gifts_img/birthday_1x.png" alt="birthday" />
+              <source
+                srcset="
+                  images/gifts_img/birthday_1x.jpg 1x,
+                  images/gifts_img/birthday_2x.jpg 2x
+                "
+                type="image/jpeg"
+              />
+              <img
+                src="images/gifts_img/birthday_1x.jpg"
+                alt="birthday"
+                loading="lazy"
+              />
             </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Birthday</span>
@@ -132,12 +174,23 @@
             <picture>
               <source
                 srcset="
-                  images/gifts_img/anniversary_1x.png 1x,
-                  images/gifts_img/anniversary_2x.png 2x
+                  images/gifts_img/anniversary_1x.webp 1x,
+                  images/gifts_img/anniversary_2x.webp 2x
                 "
-                type="image/png"
+                type="image/webp"
               />
-              <img src="images/gifts_img/anniversary_1x.png" alt="birthday" />
+              <source
+                srcset="
+                  images/gifts_img/anniversary_1x.jpg 1x,
+                  images/gifts_img/anniversary_2x.jpg 2x
+                "
+                type="image/jpeg"
+              />
+              <img
+                src="images/gifts_img/anniversary_1x.jpg"
+                alt="birthday"
+                loading="lazy"
+              />
             </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Anniversary</span>
@@ -148,14 +201,22 @@
             <picture>
               <source
                 srcset="
-                  images/gifts_img/valentine's_day_1x.png 1x,
-                  images/gifts_img/valentine's_day_2x.png 2x
+                  images/gifts_img/valentine's_day_1x.webp 1x,
+                  images/gifts_img/valentine's_day_2x.webp 2x
                 "
-                type="image/png"
+                type="image/webp"
+              />
+              <source
+                srcset="
+                  images/gifts_img/valentine's_day_1x.jpg 1x,
+                  images/gifts_img/valentine's_day_2x.jpg 2x
+                "
+                type="image/jpeg"
               />
               <img
                 src="images/gifts_img/valentine's_day_1x.png"
                 alt="birthday"
+                loading="lazy"
               />
             </picture>
             <div class="gifts-list-item-content">
@@ -167,12 +228,23 @@
             <picture>
               <source
                 srcset="
-                  images/gifts_img/christmas_1x.png 1x,
-                  images/gifts_img/christmas_2x.png 2x
+                  images/gifts_img/christmas_1x.webp 1x,
+                  images/gifts_img/christmas_2x.webp 2x
                 "
-                type="image/png"
+                type="image/webp"
               />
-              <img src="images/gifts_img/christmas_1x.png" alt="birthday" />
+              <source
+                srcset="
+                  images/gifts_img/christmas_1x.jpg 1x,
+                  images/gifts_img/christmas_2x.jpg 2x
+                "
+                type="image/jpeg"
+              />
+              <img
+                src="images/gifts_img/christmas_1x.jpg"
+                alt="birthday"
+                loading="lazy"
+              />
             </picture>
             <div class="gifts-list-item-content">
               <span class="plain-text">Christmas</span>
@@ -204,17 +276,34 @@
           <picture>
             <source
               media="(min-width: 768px)"
-              srcset="
-                images/blog-img_1x_768.png 1x,
-                images/blog-img_2x_768.png 2x
-              "
-              type="image/png"
+              srcset="images/blog-img_1x.webp 1x, images/blog-img_2x.webp 2x"
+              type="image/webp"
             />
             <source
-              srcset="images/blog-img_1x.png 1x, images/blog-img_2x.png 2x"
-              type="image/png"
+              media="(min-width: 768px)"
+              srcset="images/blog-img_1x.jpg 1x, images/blog-img_2x.jpg 2x"
+              type="image/jpeg"
             />
-            <img class="d-block" src="images/blog-img.jpg" alt="" />
+            <source
+              srcset="
+                images/blog-img_1x_sm.webp 1x,
+                images/blog-img_2x_sm.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                images/blog-img_1x_sm.jpg 1x,
+                images/blog-img_2x_sm.jpg 2x
+              "
+              type="image/jpeg"
+            />
+            <img
+              class="d-block"
+              src="images/blog-img_1x.jpg"
+              alt=""
+              loading="lazy"
+            />
           </picture>
           <div class="content-blog-wrap">
             <span class="color-white pt-62">Mr. John Doe</span>
